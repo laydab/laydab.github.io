@@ -153,3 +153,88 @@ section {
     background-color: rgb(0, 0, 0);
     color: white;
 }
+
+/* about section */
+
+#about {
+position: relative;
+}
+
+.about-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.about-details-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-container, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: whitesmoke;
+    border-radius: 2rem;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%
+}
+
+.section_pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.education-container {
+    position: left;
+    height: 20rem;
+    width: 20rem;
+}
+
+.education-text {
+    text-align: left;
+    line-height: 1.4;
+}
+
+.degree {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.icon_sfu {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 1.5rem;
+}
+
+.text-container {
+    padding: 1.5rem;
+    background: whitesmoke;
+    border-radius: 2rem;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
