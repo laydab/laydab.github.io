@@ -55,12 +55,21 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 12vh;
+
 }
 
 .nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+}
+.nav-links a {
+    transition: transform 1s ease; 
+    display: inline-block;
+  }
+  
+.nav-links a:hover {
+    transform: scale(1.2);
 }
 
 a{
@@ -74,6 +83,7 @@ a:hover {
     text-underline-offset: 1rem;
     text-decoration-color: rgb(0, 0, 0);
 }
+
 
 /* hero section */
 
@@ -323,6 +333,15 @@ position: relative;
     margin-bottom: 1rem;
 }
 
+.socials-container a i {
+    transition: transform 1s ease;
+    margin: 0 0.5rem;
+}
+  
+.socials-container a i:hover {
+    transform: scale(1.5);
+}
+
 
 .project-box {
     background: whitesmoke;
@@ -335,3 +354,28 @@ position: relative;
     margin: 0 auto;
     text-align: center;
 }
+
+/* tools/technologies */
+#tools {
+    position: relative;
+    margin-top: -7rem;
+    margin-bottom: 2rem;
+}
+
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .tools-container img {
+    width: 50px;       
+    height: auto;
+    transition: transform 1s ease;
+  }
+  
+  .tools-container img:hover {
+    transform: scale(1.5);
+  }
