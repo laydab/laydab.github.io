@@ -24,8 +24,10 @@ p{
 .main-content {
     position: relative;
     z-index: 1;
-    padding-top: 100px
+    padding-top: 100px;
+    padding-bottom: 0;
 }
+
 
 /* links */
 
@@ -360,6 +362,10 @@ position: relative;
     position: relative;
     margin-top: -7rem;
     margin-bottom: 2rem;
+
+    height: auto;
+    min-height: auto;
+    padding-bottom: 2rem; 
 }
 
 .tools-container {
@@ -379,3 +385,16 @@ position: relative;
   .tools-container img:hover {
     transform: scale(1.5);
   }
+  
+/* footer */
+footer {
+    background-color: rgba(138, 138, 138, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
