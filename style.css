@@ -42,7 +42,7 @@ a, .btn {
     top: 0;
     width: 100%;
     background-color: rgba(138, 138, 138, 0.1);
-    background-filter: blur(10px);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 0.1rem 0;
@@ -377,7 +377,7 @@ position: relative;
   }
   
   .tools-container img {
-    width: 50px;       
+    width: 75px;       
     height: auto;
     transition: transform 1s ease;
   }
@@ -388,7 +388,7 @@ position: relative;
   
 /* footer */
 footer {
-    margin-top: 5rem;
+    margin-top: 20rem;
     padding: 1rem;
     text-align: center;
 }
