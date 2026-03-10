@@ -1,222 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayden Badyal Website</title>
-
-    <!--Custom favicon-->
-
-    <link rel="icon" type="image/x-icon" href="./assets/favicon_io/favicon.ico" />
-
-     <!-- Font Awesome for icons --> 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Ayden Badyal — Software Developer. Full-stack development, data engineering, and cybersecurity. SFU Computer Science." />
+  <title>Ayden Badyal — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-
-<!-- Vanta.js background -->
-<div id="vanta-bg"></div>
-
-<div class="main-content">
-    <!--Nav bar-->
-    <nav id="desktop-nav">
-        <div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#tools">Tools/Technologies </a></li>
-            </ul>
-
-        </div>
-    </nav>
-
-    <!--Hero section-->
-    <section id="home"> 
-        <div class="section_pic-container">
-            <img src="./assets/photo.png" alt="Profile picture" />
-        </div>
-
-        <div class="section_text">
-
-            <!--Text container-->
-            <p class="section_text_p1">Hello, I'm</p>
-            <h1 class="title">Ayden Badyal</h1>
-            <p class="section_text_p2"> Software Developer</p>
-
-            <!--Resume container-->
-            <div class="btn-container">
-                <button class="btn btn-color-1" onclick="window.open('./assets/Ayden_Badyal_Resume.pdf')">
-                    Download Resume
-                </button>
-            </div>
-
-            <!--Socials container-->
-            <div class="socials-container">
-                <!--Email Link-->
-                <a href="mailto:aydenbadyal@gmail.com" target="_blank">
-                    <i class="fa-solid fa-envelope fa-lg" style="color: #000000;"></i>
-                </a>
-                <!--Linkedin link-->
-                <a href="https://www.linkedin.com/in/ayden-badyal-a5bb82306/?originalSubdomain=ca" target="_blank">
-                    <i class="fa-brands fa-linkedin fa-lg" style="color: #0A66C2;"></i>
-                </a>
-                <!--Github Link-->
-                <a href="https://github.com/laydab" target="_blank">
-                    <i class="fa-brands fa-github fa-lg" style="color: #000000;"></i>
-                </a>
-            </div>
-        </div> 
-    </section>
-    <!--About section-->
-    <section id="about">
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section_pic-container">
-                <img src="./assets/filler-pic.png" alt="Profile picture" class="about-pic" /> <!--should add different photo-->
-        </div>
-        <!--Education-->
-        <div class="about-details-container">
-            <div class="about-container">
-                <div class="details-container">
-                    <img src="./assets/SFU_horizontal_logo_rgb.webp" alt="Education icon" class="icon_sfu">
-                    <div class="education-text">
-                        <h3>Education</h3>
-                        <p class="degree">Bachelor of Applied Sciences, Software Systems <br/>Minor in Business</p>
-                    </div>
-                </div>
-            </div>
-            <!--About text container-->
-            <div class="text-container">
-                <p>
-                    Hi there! I'm a Software Systems student at Simon Fraser University with a passion
-                    for software development and cybersecurity. My tech journey started in high school with Java programming,
-                    where I built my first hangman game and discovered my love for problem-solving.
-                    Currently, I'm learning Python to develop a personal investment analysis program, 
-                    combining my coding skills with practical applications. I'm particularly interested in 
-                    cybersecurity and plan to pursue it further after my degree, drawn to the intersection of security 
-                    and software development. When I'm not coding, im interested in bouldering or running. Both 
-                    activities help me approach problems from different angles and clear my mind for breakthrough 
-                    coding moments. Thank you for visiting!
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <h1 class="title">Experience</h1>
-    
-        <div class="experience-item">
-            <h3 class="experience-role">Bookkeeper | Bonny's Taxi Car 40</h3>
-            <div class="experience-box">
-                <ul class="experience-list">
-                <li>Managed financial records by tracking earnings and documenting fuel and maintenance expenses.</li>
-                <li>Prepared income summaries and reconciled accounts for tax filing and insights.</li>
-                <li>Ensured accurate receipt documentation and financial organization.</li>
-                <li>Prepared income summaries to support budgeting and reporting.</li>
-                </ul>
-            </div>
-        </div>
-    
-        <div class="experience-item">
-            <h3 class="experience-role">Volunteer Soccer Coach | Coastal FC & Royal City Soccer Club</h3>
-            <div class="experience-box">
-                <ul class="experience-list">
-                <li>Organized and led soccer training sessions and drills for youth players.</li>
-                <li>Provided individual guidance to improve technical and tactical skills.</li>
-                <li>Assisted with equipment setup, game planning, and activity coordination.</li>
-                <li>Ensured player safety and collaborated with staff for smooth operations.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Project Section-->
-     <section id="projects">
-        <h1 class="title">Projects</h1>
-        <div class="project-item">
-
-            <!-- person profile website-->
-            <h3 class="project-name"> Personal Portfolio</h3>
-            <div class="socials-container">
-                <a href="https://github.com/laydab/laydab.github.io" target="_blank">
-                    <i class="fa-brands fa-github fa-lg" style="color: #000000;"></i>
-                </a>
-                <a href="https://laydab.github.io/#about" target="_blank">
-                    <i class="fa-solid fa-globe fa-lg" style="color: #000000;"></i>
-                </a>
-            </div>
-            <div class="project-box">
-                <p class="project-description">
-                    This is my personal portfolio website, showcasing my skills, projects, and experience as a software developer.
-                    It is built using HTML, CSS, and JavaScript, and is designed to be responsive and user-friendly.
-                </p>
-            </div>
-
-            <!-- Meal fetcher dream hacks-->
-            <h3 class="project-name"> Meal Fetcher</h3>
-            <div class="socials-container">
-                <a href="https://github.com/Daniel101Shi/Meal-Fetcher-Dreamhacks-2025-" target="_blank">
-                    <i class="fa-brands fa-github fa-lg" style="color: #000000;"></i>
-                </a>
-                <a href="https://meal-fetcher-dusky.vercel.app" target="_blank">
-                    <i class="fa-solid fa-globe fa-lg" style="color: #000000;"></i>
-                </a>
-            </div>
-
-            <div class="project-box">
-                <p class="project-description">
-                    This project is a meal fetching application that allows users to search for recipes based on ingredients.
-                    It uses an API to fetch recipes and display them in a user-friendly interface. The project is built using React, CSS. and deployed using Vercel.
-                </p>
-            </div>
-        </div>
-     </section>
-
-    <!-- skills/tech Section -->
-     <section id="tools">
-        <h1 class="title">Tools/Technologies </h1>
-        <div class="tools-container">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-        </div>
-     </section>
-
-     <!-- Footer Section -->
-        <footer>
-            <!--Socials container-->
-            <div class="socials-container">
-            <!--Email Link-->
-                <a href="mailto:aydenbadyal@gmail.com" target="_blank">
-                    <i class="fa-solid fa-envelope fa-2xl" style="color: #000000;"></i>
-                </a>
-                <!--Linkedin link-->
-                <a href="https://www.linkedin.com/in/ayden-badyal-a5bb82306/?originalSubdomain=ca" target="_blank">
-                    <i class="fa-brands fa-linkedin fa-2xl" style="color: #0A66C2;"></i>
-                </a>
-                <!--Github Link-->
-                <a href="https://github.com/laydab" target="_blank">
-                    <i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i>
-                </a>
-            </div>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
-
-    <script src="script.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
+
 </html>
